@@ -191,6 +191,7 @@ function renderBlog() {
 
 function renderContact() {
   const qrImage = siteData.site.qrImage || "assets/site-qr.png";
+  const displayUrl = siteData.site.displayUrl || siteData.site.url;
   return `
     <section class="view">
       <div class="section-head">
@@ -215,7 +216,7 @@ function renderContact() {
           .join("")}
       </div>
       <div class="notice-card">
-        <p>网站地址：<a href="${siteData.site.url}" target="_blank" rel="noreferrer">${siteData.site.url}</a></p>
+        <p>网站地址：<a href="${siteData.site.url}" target="_blank" rel="noreferrer">${escapeHtml(displayUrl)}</a></p>
       </div>
       <article class="project-card qr-card">
         <img src="${qrImage}" alt="个人网站二维码" />

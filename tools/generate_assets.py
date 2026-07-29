@@ -133,7 +133,7 @@ def qr_scene(path):
     for px, py in pattern:
         rounded(d, (220 + px * cell, 220 + py * cell, 220 + px * cell + 30, 220 + py * cell + 30), 7, INK)
     text_center(d, (450, 808), "Scan to visit", RED_DEEP, 46, True)
-    text_center(d, (450, 878), "eiyaeya.github.io", MUTED, 30)
+    text_center(d, (450, 878), "ruiquan.studio", MUTED, 30)
     img.save(ASSETS / path, quality=92)
 
 

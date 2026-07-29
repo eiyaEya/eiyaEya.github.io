@@ -1,6 +1,7 @@
 {
   "site": {
     "url": "https://eiyaeya.github.io/",
+    "displayUrl": "ruiquan.studio",
     "qrImage": "assets/site-qr.png"
   },
   "github": {
@@ -9,7 +10,7 @@
     "branch": "main"
   },
   "profile": {
-    "name": "Sang Ruiquan",
+    "name": "ruiquan.studio",
     "bio": "把技术、项目和生活记录在一个手机优先的个人主页里。",
     "avatar": "assets/avatar.png",
     "tags": ["产品思维", "前端开发", "持续学习"],
@@ -55,7 +56,7 @@
     },
     {
       "id": "daily-05",
-      "title": "后台数据维护交给 GitHub，访客互动走 Issues",
+      "title": "数据维护交给 GitHub 登录，访客互动走 Issues",
       "date": "2026-07-27",
       "likes": 9,
       "image": "assets/feed-admin.png"
@@ -71,27 +72,27 @@
   "projects": [
     {
       "title": "Mobile Personal Homepage",
-      "summary": "手机端优先的个人主页，包含动态流、项目、随笔、联系方式和后台数据维护入口。",
+      "summary": "手机端优先的个人主页，包含动态流、项目、随笔、联系方式和安全维护流程。",
       "period": "2026",
-      "openSource": true,
+      "openSource": false,
       "tags": ["HTML", "CSS", "GitHub Pages"],
       "image": "assets/project-homepage.png",
-      "sourceUrl": "https://github.com/eiyaEya/eiyaEya.github.io",
-      "downloadUrl": "https://github.com/eiyaEya/eiyaEya.github.io/archive/refs/heads/main.zip"
+      "sourceUrl": "",
+      "downloadUrl": ""
     },
     {
       "title": "Project Showcase Template",
       "summary": "用于展示项目是否开源、下载链接、技术标签和阶段成果的内容模板。",
       "period": "2026",
-      "openSource": true,
+      "openSource": false,
       "tags": ["Template", "Portfolio", "Static Data"],
       "image": "assets/project-showcase.png",
-      "sourceUrl": "https://github.com/eiyaEya/eiyaEya.github.io/tree/main/data",
-      "downloadUrl": "https://github.com/eiyaEya/eiyaEya.github.io/archive/refs/heads/main.zip"
+      "sourceUrl": "",
+      "downloadUrl": ""
     },
     {
       "title": "Private Work Notes",
-      "summary": "整理工作复盘、生活记录和阶段性想法；内容可通过后台继续补充。",
+      "summary": "整理工作复盘、生活记录和阶段性想法；内容通过 GitHub 登录后继续补充。",
       "period": "长期更新",
       "openSource": false,
       "tags": ["Blog", "Notes", "Review"],
