@@ -118,7 +118,7 @@
       "category": "技术记录",
       "likes": 19,
       "image": "assets/blog-github.png",
-      "excerpt": "静态页面托管在 GitHub Pages，内容数据放在仓库 JSON 文件里，维护页通过 GitHub API 提交更新。"
+      "excerpt": "静态页面托管在 GitHub Pages，内容数据放在仓库 JSON 文件里，维护时登录 GitHub 后直接编辑数据文件。"
     },
     {
       "id": "post-03",
