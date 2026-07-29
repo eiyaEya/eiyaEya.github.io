@@ -1,14 +1,14 @@
-# Personal Homepage
+# ruiquan.studio
 
 Mobile-first static personal homepage hosted by GitHub Pages.
 
-## Free URL
+## Free Publishing
 
-`https://eiyaeya.github.io/`
+Public display name: `ruiquan.studio`. The live site is served by the configured GitHub Pages endpoint in `data/site.json`.
 
 ## Data Maintenance
 
-Edit `data/site.json` directly on GitHub, or open `admin.html` from the published site and publish with a GitHub token that has repository contents write access.
+The public admin page was removed. Maintain content by editing `data/site.json` through GitHub after signing in.
 
 ## Visitor Interaction
 
