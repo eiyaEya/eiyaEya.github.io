@@ -19,6 +19,40 @@
 
       <section class="admin-grid">
         <article class="admin-panel">
+          <h2>快速录入</h2>
+          <div class="field-grid">
+            <label>
+              姓名
+              <input id="profileName" type="text" />
+            </label>
+            <label>
+              简介
+              <input id="profileBio" type="text" />
+            </label>
+            <label>
+              邮箱
+              <input id="contactEmail" type="email" />
+            </label>
+            <label>
+              GitHub
+              <input id="contactGithub" type="url" />
+            </label>
+            <label>
+              新随笔标题
+              <input id="newBlogTitle" type="text" placeholder="输入标题后可追加到 Blog" />
+            </label>
+            <label>
+              新随笔摘要
+              <textarea id="newBlogExcerpt" class="compact-textarea" spellcheck="false"></textarea>
+            </label>
+          </div>
+          <div class="action-row">
+            <button class="primary-button" id="applyQuickBtn" type="button">应用资料</button>
+            <button class="secondary-button" id="addBlogBtn" type="button">新增随笔</button>
+          </div>
+        </article>
+
+        <article class="admin-panel">
           <h2>数据源</h2>
           <div class="field-grid">
             <label>

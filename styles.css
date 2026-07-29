@@ -110,7 +110,7 @@ button {
 
 .page-stack {
   min-height: calc(100vh - 128px);
-  padding: 12px 12px calc(92px + env(safe-area-inset-bottom));
+  padding: 12px 12px calc(118px + env(safe-area-inset-bottom));
 }
 
 .view {
@@ -297,8 +297,9 @@ button {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 5;
-  object-fit: cover;
-  background: var(--wash);
+  object-fit: contain;
+  padding: 8px;
+  background: #fafafa;
 }
 
 .note-body {
@@ -649,6 +650,11 @@ button {
   font-family: Consolas, "Courier New", monospace;
   font-size: 13px;
   line-height: 1.55;
+}
+
+.field-grid .compact-textarea {
+  min-height: 92px;
+  font-family: inherit;
 }
 
 .field-grid input:focus,
