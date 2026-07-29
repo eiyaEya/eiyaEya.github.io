@@ -217,7 +217,7 @@ function renderContact() {
       <div class="notice-card">
         <p>网站地址：<a href="${siteData.site.url}" target="_blank" rel="noreferrer">${siteData.site.url}</a></p>
       </div>
-      <article class="project-card">
+      <article class="project-card qr-card">
         <img src="${qrImage}" alt="个人网站二维码" />
         <div class="content-pad">
           <h2 class="card-title">简历二维码</h2>

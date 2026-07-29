@@ -367,6 +367,13 @@ button {
   background: var(--wash);
 }
 
+.qr-card img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 18px;
+  background: #fff;
+}
+
 .content-pad {
   padding: 12px;
 }
