@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ff2442" />
+    <meta name="description" content="Sang Ruiquan 的个人主页：项目、随笔、动态和联系方式。" />
+    <title>Sang Ruiquan | 个人主页</title>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" aria-label="站点顶部">
+        <a class="brand-mark" href="#home" aria-label="返回首页">
+          <span class="brand-dot"></span>
+          <span>Ruiquan</span>
+        </a>
+        <div class="topbar-actions">
+          <a class="icon-button" href="admin.html" aria-label="后台维护" title="后台维护">
+            <span aria-hidden="true">+</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="app" class="page-stack" aria-live="polite">
+        <section class="loading-state">
+          <div class="spinner" aria-hidden="true"></div>
+          <p>正在加载个人主页</p>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="主导航">
+        <a class="nav-item is-active" data-route="home" href="#home">
+          <span class="nav-icon" aria-hidden="true">⌂</span>
+          <span>首页</span>
+        </a>
+        <a class="nav-item" data-route="projects" href="#projects">
+          <span class="nav-icon" aria-hidden="true">▦</span>
+          <span>项目</span>
+        </a>
+        <a class="nav-item" data-route="blog" href="#blog">
+          <span class="nav-icon" aria-hidden="true">✎</span>
+          <span>随笔</span>
+        </a>
+        <a class="nav-item" data-route="contact" href="#contact">
+          <span class="nav-icon" aria-hidden="true">☎</span>
+          <span>联系</span>
+        </a>
+      </nav>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+name: Visitor comment
+description: Leave a public message from the personal homepage.
+title: "[访客留言] "
+labels: ["visitor-feedback"]
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: 留言内容
+      description: 写下想交流的内容。
+      placeholder: 你好，我想和你交流...
+    validations:
+      required: true

@@ -1,0 +1,152 @@
+{
+  "site": {
+    "url": "https://eiyaeya.github.io/",
+    "qrImage": "assets/site-qr.png"
+  },
+  "github": {
+    "owner": "eiyaEya",
+    "repo": "eiyaEya.github.io",
+    "branch": "main"
+  },
+  "profile": {
+    "name": "Sang Ruiquan",
+    "bio": "把技术、项目和生活记录在一个手机优先的个人主页里。",
+    "avatar": "assets/avatar.png",
+    "tags": ["产品思维", "前端开发", "持续学习"],
+    "metrics": [
+      { "label": "项目", "value": "03" },
+      { "label": "随笔", "value": "03" },
+      { "label": "动态", "value": "06" }
+    ]
+  },
+  "modules": [
+    { "route": "projects", "title": "Project", "summary": "开源状态与下载" },
+    { "route": "blog", "title": "Blog", "summary": "生活和工作随笔" },
+    { "route": "contact", "title": "Contact", "summary": "联系方式和留言" }
+  ],
+  "feed": [
+    {
+      "id": "daily-01",
+      "title": "把个人主页重新整理成移动端优先的动态流",
+      "date": "2026-07-29",
+      "likes": 18,
+      "image": "assets/feed-mobile.png"
+    },
+    {
+      "id": "daily-02",
+      "title": "项目页保留开源状态、下载入口和技术标签",
+      "date": "2026-07-29",
+      "likes": 12,
+      "image": "assets/feed-project.png"
+    },
+    {
+      "id": "daily-03",
+      "title": "把生活随笔和工作复盘放在同一个 Blog 里",
+      "date": "2026-07-28",
+      "likes": 21,
+      "image": "assets/feed-blog.png"
+    },
+    {
+      "id": "daily-04",
+      "title": "用 GitHub Pages 做免费网址，用二维码连接简历",
+      "date": "2026-07-28",
+      "likes": 16,
+      "image": "assets/feed-qr.png"
+    },
+    {
+      "id": "daily-05",
+      "title": "后台数据维护交给 GitHub，访客互动走 Issues",
+      "date": "2026-07-27",
+      "likes": 9,
+      "image": "assets/feed-admin.png"
+    },
+    {
+      "id": "daily-06",
+      "title": "红白配色做点缀，内容密度更接近小红书笔记",
+      "date": "2026-07-27",
+      "likes": 24,
+      "image": "assets/feed-style.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Mobile Personal Homepage",
+      "summary": "手机端优先的个人主页，包含动态流、项目、随笔、联系方式和后台数据维护入口。",
+      "period": "2026",
+      "openSource": true,
+      "tags": ["HTML", "CSS", "GitHub Pages"],
+      "image": "assets/project-homepage.png",
+      "sourceUrl": "https://github.com/eiyaEya/eiyaEya.github.io",
+      "downloadUrl": "https://github.com/eiyaEya/eiyaEya.github.io/archive/refs/heads/main.zip"
+    },
+    {
+      "title": "Project Showcase Template",
+      "summary": "用于展示项目是否开源、下载链接、技术标签和阶段成果的内容模板。",
+      "period": "2026",
+      "openSource": true,
+      "tags": ["Template", "Portfolio", "Static Data"],
+      "image": "assets/project-showcase.png",
+      "sourceUrl": "https://github.com/eiyaEya/eiyaEya.github.io/tree/main/data",
+      "downloadUrl": "https://github.com/eiyaEya/eiyaEya.github.io/archive/refs/heads/main.zip"
+    },
+    {
+      "title": "Private Work Notes",
+      "summary": "整理工作复盘、生活记录和阶段性想法；内容可通过后台继续补充。",
+      "period": "长期更新",
+      "openSource": false,
+      "tags": ["Blog", "Notes", "Review"],
+      "image": "assets/project-notes.png",
+      "sourceUrl": "",
+      "downloadUrl": ""
+    }
+  ],
+  "blog": [
+    {
+      "id": "post-01",
+      "title": "为什么个人主页也要手机优先",
+      "date": "2026-07-29",
+      "category": "工作随笔",
+      "likes": 22,
+      "image": "assets/blog-mobile.png",
+      "excerpt": "简历、社交软件和二维码带来的访问大多发生在手机端，所以个人主页第一屏要快速展示身份、项目和联系入口。"
+    },
+    {
+      "id": "post-02",
+      "title": "用 GitHub 承担免费的发布和数据维护",
+      "date": "2026-07-29",
+      "category": "技术记录",
+      "likes": 19,
+      "image": "assets/blog-github.png",
+      "excerpt": "静态页面托管在 GitHub Pages，内容数据放在仓库 JSON 文件里，维护页通过 GitHub API 提交更新。"
+    },
+    {
+      "id": "post-03",
+      "title": "把生活动态做成图片墙",
+      "date": "2026-07-28",
+      "category": "生活随笔",
+      "likes": 17,
+      "image": "assets/blog-life.png",
+      "excerpt": "比起长篇介绍，图片墙更适合让访客快速感知最近状态，也更接近小红书式的信息浏览节奏。"
+    }
+  ],
+  "contact": [
+    {
+      "label": "Email",
+      "value": "your.email@example.com",
+      "href": "mailto:your.email@example.com",
+      "action": "发邮件"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/eiyaEya",
+      "href": "https://github.com/eiyaEya",
+      "action": "查看"
+    },
+    {
+      "label": "访客留言",
+      "value": "通过 GitHub Issues 留言互动",
+      "href": "https://github.com/eiyaEya/eiyaEya.github.io/issues/new?labels=visitor-feedback",
+      "action": "留言"
+    }
+  ]
+}
